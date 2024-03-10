@@ -1,13 +1,48 @@
-.mdl-mega-footer__middle-section {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #080808; /* Hier die gewünschte Hintergrundfarbe des Footers eintragen */
-  color: white;
-}
-
 body {
   background-image: url(https://imgs.search.brave.com/3Dpa4FZxPnf7yW7xcukWMQ7H8vtSGynHv__lKz8f3DQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTI4/OTM4NjYvcGhvdG8v/c3BhY2Utc3RhcnMt/dGV4dHVyZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9aXhF/Zmt0UmhtMEphY1RP/OHlUa1UxRXhsY2VC/cUlaN1Bmc0hBeVdt/eEcyMD0);
-  width: 900px;
+}
+
+.head {
+  background-color: rgb(7, 14, 77);
+  margin-top: 0;
+  margin-top: -23px;
+}
+
+.header-title {
+  color: white;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(7, 14, 77);
+  padding: 20px;
+  color: white;
+  bottom: 0;
+  position: fixed;
+  font-size: 20px;
+  width: 100%;
+}
+
+.footer span:first-child {
+  margin-left: 0;
+}
+
+.footer span:last-child {
+  margin-right: 0;
+  padding-right: 30px;
+}
+
+.footer span:first-child:hover,
+.footer span:last-child:hover {
+  text-decoration: underline;
+  color: rgb(255, 0, 157);
+  cursor: pointer;
 }

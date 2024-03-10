@@ -2,6 +2,15 @@ const app = new PIXI.Application();
 const ufoList = [];
 document.body.appendChild(app.view);
 
+window.onload = function () {
+  if (!localStorage.getItem("visited")) {
+    alert(
+      "Zoomout to 90%! Move your car with the arrows and press space on your keyboard!"
+    );
+    localStorage.setItem("visited", true);
+  }
+};
+
 const rocket = PIXI.Sprite.from("bilder/car.png");
 rocket.x = 350;
 rocket.y = 435;
