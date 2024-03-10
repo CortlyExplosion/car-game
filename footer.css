@@ -46,3 +46,9 @@ body {
   color: rgb(255, 0, 157);
   cursor: pointer;
 }
+
+.image-logo {
+  width: 75px;
+  height: 75px;
+  margin-left: -15px;
+}
