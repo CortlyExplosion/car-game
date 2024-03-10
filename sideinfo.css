@@ -1,0 +1,25 @@
+.side-ino-titel {
+  color: white;
+}
+
+.side-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.car-game-link:hover {
+  text-decoration: underline;
+}
+
+.car-game-link {
+  text-decoration: none;
+}
+
+.side-info-text {
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+  padding: 20px;
+}
