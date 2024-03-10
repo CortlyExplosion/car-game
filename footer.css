@@ -1,0 +1,13 @@
+.mdl-mega-footer__middle-section {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #080808; /* Hier die gewünschte Hintergrundfarbe des Footers eintragen */
+  color: white;
+}
+
+body {
+  background-image: url(https://imgs.search.brave.com/3Dpa4FZxPnf7yW7xcukWMQ7H8vtSGynHv__lKz8f3DQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTI4/OTM4NjYvcGhvdG8v/c3BhY2Utc3RhcnMt/dGV4dHVyZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9aXhF/Zmt0UmhtMEphY1RP/OHlUa1UxRXhsY2VC/cUlaN1Bmc0hBeVdt/eEcyMD0);
+  width: 900px;
+}
